@@ -1,0 +1,49 @@
+#secaovideo{
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  padding: 50px;
+}
+
+#textovideo{
+    display:flex;
+    align-items: center;
+    margin-left: 20px;
+}
+h1{
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+
+}
+#carrossel{
+background-color: rgb(243, 14, 14);
+}
+
+#cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+  margin-left: 50px;
+}
+
+#setaesquerda{
+  display: none;
+}
+
+#Bruna{
+  display: none;
+}
+
+.seta{
+  margin-top: 50%;
+  cursor: pointer;
+}
+
+.seta :hover{
+transform: translateX(7px);
+transition: 0.5s;
+
+}
